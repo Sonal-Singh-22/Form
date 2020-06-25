@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  	<meta charset="utf-8">
+  	<meta http-eqiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Become our Partner </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="partnercss.css">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+ </head>
+ <body>
+ 	<div class="header" id="topheader">
+	
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+ 
+  <a class="navbar-brand font-weight-bold" href="partner.html"> <h1 class="text-center text-light" id="name">MadCrayons</h1></a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#"><span class="fas fa-home text-light"></span><br class="hidden-xs"><p class ="text-light">Home</p></a>
+      </li>
+      <li class="nav-item text-light">
+        <a class="nav-link" href="#servicediv">
+          <span class="fas fa-user-friends text-light"></span><br
+           class="hidden-xs text-light"><p class ="text-light">About Us</p></a> 
+          
+        </li>
+     <li class="nav-item active">
+        <a class="nav-link" href="#pricingdiv"><span class="fa fa-handshake-o text-light"></span><br class="hidden-xs"><p class ="text-light">Become our partner</p></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section id="contact-section">
+  
+  <div class="container">
+   
+   <h2> Become our Partner </h2>
+   <blockquote class="blockquote">
+   	<p class="blockquot-text"> Just one Great Partnership with the right person can have an incredible impact on your business success </p><br>
+   	<p class="blockquote-text-credit"> -Janine Ogg and Jo Foster</p><br><br>
+   </blockquote>
+   
+   <div class="contact-form">
+    <div class="icons">
+      <i class="fa fa-map-marker"></i><span class="form-info">City Delhi</span><br><br>
+   		<i class="fa fa-phone"></i><span class="form-info">1234567890</span><br><br>
+      <i class="fa fa-envelope"></i><span class="form-info" id="enve">xyz@gmail.com</span><br><br>
+   </div>
+
+  <div id="form">
+   		<form>
+   			<input type="text" placeholder="Your name" required>
+   			<input type="text" placeholder="Last name" required>
+        <input type="Email" placeholder="Email" required>
+   			<textarea name="message" placeholder="Kind of patnership" rows="3"  id="" required></textarea>
+        <textarea name="message" placeholder="Description about your role" rows="5"  id="" required></textarea>
+   			<button class="submit" id="button">Submit</button><br><br><br><br>
+      </form>
+   </div>
+   </div>
+  </div>
+   <div class="scrolltop float-right">
+   <i class="fas fa-arrow-alt-circle-up" onclick="topFunction()" id="myBtn"></i>
+  </div>
+
+</section>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha256-JtQPj/3xub8oapVMaIijPNoM0DHoAtgh/gwFYuN5rik=" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+     <script>
+       
+       $('.count').counterUp({
+        delay:10,
+        time:3000
+       })
+      
+      mybutton = document.getElementById("myBtn");
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display ="none";
+        }
+      }
+      
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop =0;
+      }
+     
+     </script>
+</body>
+</html>
